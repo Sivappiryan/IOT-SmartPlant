@@ -46,7 +46,7 @@ temp_low_alert_sent    = False
 #  ALERT FUNCTION
 # ─────────────────────────────────────────────
 def send_alert(subject: str, body: str):
-    """Send alert via Discord webhook and email to all registered users."""
+    """Send alert via email to all registered users."""
     print(f"\n[ALERT] Sending: {subject}")
 
 
