@@ -29,7 +29,7 @@ users_collection = db['users']
 
 # --- ALERT FUNCTION ---
 def send_alert_to_users(subject, message_body):
-    """Sends alert via Discord and Email"""
+    """Sends alert via Email"""
  
 
     # Email
